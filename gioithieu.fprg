@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Laptop VINHLINK"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-03-10 02:19:35 PM"/>
+        <attribute name="created" value="TGFwdG9wIFZJTkhMSU5LO0xBUFRPUFZJTkhMSU5LOzIwMTktMDMtMTA7MDI6MTc6NDQgUE07MzYyMA=="/>
+        <attribute name="edited" value="TGFwdG9wIFZJTkhMSU5LO0xBUFRPUFZJTkhMSU5LOzIwMTktMDMtMTA7MDI6MTk6MzUgUE07MTszNzMw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Hello World!&quot;" newline="True"/>
+            <output expression="&quot;Ho ten: Le Hoai Nam&quot;" newline="True"/>
+            <output expression="&quot;MSSV: 1755252021600007&quot;" newline="True"/>
+            <output expression="&quot;Nganh hoc: Ky thuat Dieu khien &amp; Tu dong hoa&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Laptop VINHLINK"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-03-10 01:50:01 PM"/>
+        <attribute name="created" value="TGFwdG9wIFZJTkhMSU5LO0xBUFRPUFZJTkhMSU5LOzIwMTktMDMtMTA7MDE6NDA6NDUgUE07MzYxNg=="/>
+        <attribute name="edited" value="TGFwdG9wIFZJTkhMSU5LO0xBUFRPUFZJTkhMSU5LOzIwMTktMDMtMTA7MDE6NTA6MDEgUE07MTc7Mzc3Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <output expression="&quot;Nhap he so a&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Nhap he so b&quot;" newline="True"/>
+            <input variable="b"/>
+            <if expression="a == 0">
+                <then>
+                    <if expression="b == 0">
+                        <then>
+                            <output expression="&quot;Phuong trinh co vo so nghiem&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Phuong trinh vo nghiem&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <declare name="x" type="Real" array="False" size=""/>
+                    <assign variable="x" expression="-b/a"/>
+                    <output expression="&quot;Phuong trinh co nghiem x = &quot; &amp;x" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
